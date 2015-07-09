@@ -1,6 +1,7 @@
 class Car 
 	def initialize 
-	@engine = Engine.new 
+	@engine = Engine.new
+    puts engine 
 	end 
 end 
 
