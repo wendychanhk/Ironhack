@@ -1,14 +1,8 @@
 # Ironhack
 
-# Ironhack Project for Javascript (23 July 2015) 
+# Ironhack Projects for Javascript (July 2015) 
 
-
-Let’s make a shopping cart, JavaScript style
-
-We’ve already made a shopping cart in Ruby, if you recall. As we’ve learned, Ruby and JavaScript vary in many ways, including how to write object oriented code. Let’s make a shopping cart, but this time in JavaScript, dare I say, Object Oriented Javascript?
-
-In Ruby we used inheritance to solve this problem. Since in JavaScript inheritance works very differently, we’re going to forgo using it for this exercise.
-
+1. Shopping Cart 
 Iteration 1
 
 Our store is going to have 5 different items like our first shopping cart.
@@ -50,3 +44,16 @@ If I don’t pass a number to the function, I want to remove all of the items.
 
 If the amount selected to be removed is greater than what is currently in the cart, just remove all items of that type from the cart.
 
+
+2. Quiz Game 
+Let’s create a quiz game in JavaScript!
+
+This is about as simple as it sounds, let's create a command line game in Node that asks the user questions, and allows the user to answer.
+
+First Iteration
+
+Create the basic quiz. Create a “question” class. Each question should have the text for the question (obviously), an answer, and an ID in the form of an integer. Create the Quiz class to move the user from question to question. Quiz the user with the questions, and if they provide the correct answer allow them to move on to the next question. If the user incorrectly answers, notify the user and repeat the same question again.
+
+Second Iteration
+
+Add a new field to the Question class, with a point value. If the user answers a question correctly, add to a new “total” variable. Keep track of the total points accumulated throughout the quiz, and display it to the user while asking the question. If a user incorrectly answers the question, make sure to subtract the quizzes point value from the total before repeating.
