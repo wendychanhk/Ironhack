@@ -1,4 +1,4 @@
-# Ironhack Project for Javascript (July 2015) 
+# Ironhack Project - Javascript (July 2015) 
 
 Create a quiz game in JavaScript!
 
